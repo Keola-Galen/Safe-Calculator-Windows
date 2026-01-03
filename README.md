@@ -6,7 +6,11 @@ Safe Calculator adalah sebuah alat yang digunakan untuk membantu pelajar menghit
 Sebagai alat bantu bagi murid yang memiliki masalah memerlukan waktu agak lama dalam menghitung, padahal sangat paham rumus.
 
 ## Fitur
-- Operator +,-,*,/ yang memudahkan murid dalam menghitung, namun tetap memastikan bahwa murid tetap paham rumus.
+- Operator +,-,*,/ : Safe Calculator menyediakan beberapa operator itu untuk memudahkan User dalam menghitung, namun tetap memastikan bahwa murid tetap paham rumus.
+- Navigasi Cepat : Safe Calculator menyediakan menu interaktif yang hanya mengharuskan User mengetik satu huruf untuk pindah ke bagian lain dari program.
+- Live Edit : Safe Calculator menyediakan halaman khusus untuk mengedit code, cukup dengan masuk ke bagian "Setting" lalu klik "e" untuk membuka halaman code
+yang berbasis Notepad dan bahasa pemrograman batch, User bisa langsung edit code tanpa perlu keluar dari program (Biasanya cukup dengan kembali ke menu,
+perubahan akan langsung terlihat, namun dalam beberapa kasus perlu keluar dari program dulu lalu masuk lagi).
 
 ## Cara Menjalankan
 Klik file Safe Calculator.bat dengan sekali klik atau double klik tergantung pengaturan Windows.
