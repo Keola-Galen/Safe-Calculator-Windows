@@ -9,7 +9,7 @@ Sebagai alat bantu bagi murid yang memiliki masalah memerlukan waktu agak lama d
 - Operator +,-,*,/ : Safe Calculator menyediakan beberapa operator itu untuk memudahkan User dalam menghitung, namun tetap memastikan bahwa murid tetap paham rumus.
 - Navigasi Cepat : Safe Calculator menyediakan menu interaktif yang hanya mengharuskan User mengetik satu huruf untuk pindah ke bagian lain dari program.
 - Live Edit : Safe Calculator menyediakan halaman khusus untuk mengedit code, cukup dengan masuk ke bagian "Setting" lalu klik "e" untuk membuka halaman code
-yang berbasis Notepad dan bahasa pemrograman batch, User bisa langsung edit code tanpa perlu keluar dari program (Biasanya cukup dengan kembali ke menu,
+yang berbasis Notepad dan bahasa pemrograman batch, User bisa langsung edit code tanpa perlu keluar dari program (Biasanya cukup dengan menutup halaman code (Notepad),
 perubahan akan langsung terlihat, namun dalam beberapa kasus perlu keluar dari program dulu lalu masuk lagi).
 
 ## Cara Menjalankan
