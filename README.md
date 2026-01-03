@@ -16,6 +16,7 @@ perubahan akan langsung terlihat, namun dalam beberapa kasus perlu keluar dari p
 - Install zip Safe Calculator.
 - Extarct zip Safe Calculator.
 - Klik atau double klik file start.bat tergantung penganturan di windows.
+- Ketika dijalankan, Safe Calculator akan terbuka via Terminal Command Prompt.
 
 ## Contoh
 Jika seorang murid berhadapan dengan soal Matematika, dan soal itu memerlukan rumus, alih - alih menghitung tambah, kurang, kali, bagi secara manual, sebaliknya gunakan Safe Calculator
