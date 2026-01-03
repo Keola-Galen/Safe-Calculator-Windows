@@ -90,12 +90,12 @@ echo    /        \    3. Open source, jadi banyak mata yang mengawasi keamanan d
 echo   /          \   
 echo  /      +     \  Safe Calculator itu untuk siapa?
 echo      /     -     Safe Calculator dibuat untuk para pelajar yang sebenarnya mampu
-echo  \      x     /  menghitung dengan baik, namun agak memerlukan waktu yang agak 
+echo  \      x     /  menghitung dengan baik, namun memerlukan waktu yang agak 
 echo   \          /   lama dalam menghitung. Jadi Safe Calculator 
 echo    \        /    adalah sebuah alat yang membantu pengerjaan rumus, bukan
 echo     \      /     menggantikan perhitungan manual.
 echo      \    /
-echo       \  /       Patch 1.0.0 Windows
+echo       \  /       Patch 1.0.1 Windows
 echo        \/
 echo.
 echo.
