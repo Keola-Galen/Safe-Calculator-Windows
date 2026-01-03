@@ -1,4 +1,4 @@
-# Safe Calculator Windows
+# Safe Calculator 
 
 Safe Calculator adalah sebuah alat yang digunakan untuk membantu pelajar menghitung lebih cepat saat mengerjakan soal Matematika.
 
@@ -13,7 +13,9 @@ yang berbasis Notepad dan bahasa pemrograman batch, User bisa langsung edit code
 perubahan akan langsung terlihat, namun dalam beberapa kasus perlu keluar dari program dulu lalu masuk lagi).
 
 ## Cara Menjalankan
-Klik file Safe Calculator.bat dengan sekali klik atau double klik tergantung pengaturan Windows.
+- Install zip Safe Calculator.
+- Extarct zip Safe Calculator.
+- Klik atau double klik file start.bat tergantung penganturan di windows.
 
 ## Contoh
 Jika seorang murid berhadapan dengan soal Matematika, dan soal itu memerlukan rumus, alih - alih menghitung tambah, kurang, kali, bagi secara manual, sebaliknya gunakan Safe Calculator
@@ -24,6 +26,9 @@ Jika seorang murid berhadapan dengan soal Matematika, dan soal itu memerlukan ru
 ## Kenapa Harus Batch?
 Karena mayoritas pengguna laptop menggunakan Windows, dan hampir semua versi Windows dilengkapi dengan bahasa pemrograman
 batch, jadi Safe Calculator dapat digunakan di hampir semua laptop yang menggunakan Windows.
+
+## Kompatibilitas
+- Windows
 
 ## Status
 Project yang masih dikembangkan.
