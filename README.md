@@ -29,7 +29,10 @@ Karena mayoritas pengguna laptop menggunakan Windows, dan hampir semua versi Win
 batch, jadi Safe Calculator dapat digunakan di hampir semua laptop yang menggunakan Windows.
 
 ## Kompatibilitas
-- Windows
+Minimum
+- Windows 7.
+Direkomendasikan
+- Windows 11 (OS yang digunakan untuk pembuatan dan pengujian Safe Calculator).
 
 ## Status
 Project yang masih dikembangkan.
