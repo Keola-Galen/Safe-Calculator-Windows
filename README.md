@@ -28,10 +28,11 @@ Jika seorang murid berhadapan dengan soal Matematika, dan soal itu memerlukan ru
 Karena mayoritas pengguna laptop menggunakan Windows, dan hampir semua versi Windows dilengkapi dengan bahasa pemrograman
 batch, jadi Safe Calculator dapat digunakan di hampir semua laptop yang menggunakan Windows.
 
-## Kompatibilita
-# Minimum
+## Kompatibilitas
+Minimum
 - Windows 7.
-# Direkomendasikan
+
+Direkomendasikan
 - Windows 11 (OS yang digunakan untuk pembuatan dan pengujian Safe Calculator).
 
 ## Status
