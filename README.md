@@ -13,8 +13,9 @@ yang berbasis Notepad dan bahasa pemrograman batch, User bisa langsung edit code
 perubahan akan langsung terlihat, namun dalam beberapa kasus perlu keluar dari program dulu lalu masuk lagi).
 
 ## Cara Menjalankan
-- Install zip Safe Calculator.
-- Extarct zip Safe Calculator.
+- Tekan tombol code.
+- Pilih Download zip.
+- Extarct zip.
 - Klik atau double klik file start.bat tergantung penganturan di windows.
 - Ketika dijalankan, Safe Calculator akan terbuka via Terminal Command Prompt.
 
