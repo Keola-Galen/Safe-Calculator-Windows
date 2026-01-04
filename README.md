@@ -16,7 +16,7 @@ perubahan akan langsung terlihat, namun dalam beberapa kasus perlu keluar dari p
 - Tekan tombol code.
 - Pilih Download zip.
 - Extarct zip.
-- Klik atau double klik file start.bat tergantung penganturan di windows.
+- Klik atau double klik file start tergantung penganturan di windows. (nama file bisa saja start.bat jika extensi terlihat).
 - Ketika dijalankan, Safe Calculator akan terbuka via Terminal Command Prompt.
 
 ## Contoh
