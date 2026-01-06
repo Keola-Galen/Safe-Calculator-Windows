@@ -21,6 +21,13 @@ ini terjadi, program akan tertutup otomatis). (Perubahan yang dilakukan di halam
 - Klik atau double klik file start tergantung penganturan di windows. (Nama file bisa saja start.bat jika extensi terlihat).
 - Ketika dijalankan, Safe Calculator akan terbuka via Terminal Command Prompt.
 
+## Seri Spesial
+- ExamLock Series
+ExamLock Series adalah seri khusus yang seperti namanya, di desain untuk pelaksanaan Ujian. Dengan menghapus Home Page dan Terminal, mencegah User untuk melakukan
+Live Edit langusung dari dalam program, dan mengurangi resiko kostumisasi program selama Ujian berlangsung. Cara menjalankannya adalah, pastikan file ExamLock Series 20xx
+sudah terinstall, biasanya jika anda menginstall zip Safe Calculator, maka file sudah terinstall. Selanjutnya, jika file sudah terinstall dan sudah di extract, silahkan
+buka file seperti yang saya ajarkan sebelumnya.
+
 ## Contoh
 Jika seorang murid berhadapan dengan soal Matematika, dan soal itu memerlukan rumus, alih - alih menghitung tambah, kurang, kali, bagi secara manual, sebaliknya gunakan Safe Calculator.
 
