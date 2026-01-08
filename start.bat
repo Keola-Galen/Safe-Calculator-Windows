@@ -179,10 +179,10 @@ echo Tambah(+)
 echo Kurang(-) 
 echo Kali(*) 
 echo Bagi(/) 
-set/p operasi=
-echo Silahkan masukan angka yang ingin di %operasi% kan & set/p ang1=
-echo Silahkan masukan angka me %operasi% kan & set/p ang2=
-set/a hasil= %ang1% %operasi% %ang2%
+set/p operasit=
+echo Silahkan masukan angka yang ingin di %operasit% kan & set/p ang1t=
+echo Silahkan masukan angka me %operasit% kan & set/p ang2t=
+set/a hasilt= %ang1t% %operasit% %ang2t%
 echo.
 echo.
 echo.
@@ -220,7 +220,7 @@ echo   \          /   lama dalam menghitung. Jadi Safe Calculator
 echo    \        /    adalah sebuah alat yang membantu pengerjaan rumus, bukan
 echo     \      /     menggantikan perhitungan manual.
 echo      \    /
-echo       \  /       Patch 2.0.0 Windows
+echo       \  /       Patch 2.0.2 Windows
 echo        \/
 echo.
 echo.
