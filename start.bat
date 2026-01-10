@@ -152,7 +152,7 @@ echo   \          /   lama dalam menghitung. Jadi Safe Calculator
 echo    \        /    adalah sebuah alat yang membantu pengerjaan rumus, bukan
 echo     \      /     menggantikan perhitungan manual.
 echo      \    /
-echo       \  /       Patch 2.0.1 Windows
+echo       \  /       Patch 2.0.3 Windows
 echo        \/
 echo.
 echo.
@@ -220,7 +220,7 @@ echo   \          /   lama dalam menghitung. Jadi Safe Calculator
 echo    \        /    adalah sebuah alat yang membantu pengerjaan rumus, bukan
 echo     \      /     menggantikan perhitungan manual.
 echo      \    /
-echo       \  /       Patch 2.0.2 Windows
+echo       \  /       Patch 2.0.3 Windows
 echo        \/
 echo.
 echo.
