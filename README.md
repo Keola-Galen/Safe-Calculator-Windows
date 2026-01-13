@@ -13,6 +13,7 @@ Sebagai alat bantu bagi murid yang memiliki masalah memerlukan waktu agak lama d
 yang berbasis Notepad dan bahasa pemrograman batch, User bisa langsung edit code tanpa perlu keluar dari program (Biasanya cukup dengan menutup halaman code (Notepad),
 perubahan akan langsung terlihat, namun dalam beberapa kasus perlu keluar dari program dulu lalu masuk lagi, tapi biasanya jika kasus
 ini terjadi, program akan tertutup otomatis). (Perubahan yang dilakukan di halaman code Notepad hanya akan merubah isi code file start.bat milik user, bukan mengubah code di repo GitHub).
+- Diary : Fitur yang memungkinkan user untuk menulis buku harian hanya dengan menulis dua kata di Terminal.
 
 ## Cara Menjalankan
 - Tekan tombol code.
