@@ -2,8 +2,13 @@
 echo.
 echo.
 echo.
-echo                                                                    Safe Calculator
-echo                                                               Your software your safety
+echo                      /     /\ \        / I[[[[[      /     /\     I      / I     I I          /\   ]]]]] /-----\   I]]]]      /-\
+echo                     I     /  \ \      /  I          /     /  \    I     /  I     I I         /  \    I  /       \  I    I    / + \
+echo                      \   /    \ \    /   I[[[[[    I     /    \   I    I   I     I I        /    \   I I         I I ]]]    I / - I
+echo                       I /      \ \  /    I          \   /      \  I     \  I     I I       /      \  I  \       /  I    \    \ x /
+echo                      / /        \ \/     I[[[[[      \ /        \ I]]]]] \  \___/  I]]]]] /        \ I   \-----/   I     \    \-/   
+echo.
+echo                                                             Your Software Your Safety
 echo.
 echo.
 echo.
@@ -26,8 +31,8 @@ echo.
 echo Ketik 'openmenu' untuk pergi ke Menu, atau ketik 'openterminal' untuk pergi ke Terminal.
 echo Jika ingin keluar ketik 'exit' untuk keluar dari program.
 echo.
-echo Menu digunakan untuk mengakses fitur dasar di Safe Calculator.
-echo Terminal digunakan untuk mengakses fitur spesial, serta memberikan kontrol penuh kepada user.
+echo - Menu digunakan untuk mengakses fitur dasar di Safe Calculator.
+echo - Terminal digunakan untuk mengakses fitur spesial, serta memberikan kontrol penuh kepada user.
 echo.
 echo Pemberitahuan : Jika yang kamu butuhkan hanya fitur dasar nya, kamu tidak butuh
 echo akses terminal, tapi jika kamu butuh fitur spesial dan kontrol penuh, atau ada kerusakan sistem,
@@ -45,6 +50,12 @@ goto home
 : t
 cls
 color 07
+echo --------------------------
+echo Safe Calculator (Terminal)
+echo --------------------------
+echo.
+echo.
+echo.
 echo Selamat datang di Terminal, bagian profesional dari Safe Calculator.
 echo.
 echo Ketik 'openlist' untuk menampilkan daftar code.
@@ -52,12 +63,14 @@ echo Ketik 'openh' untuk kembali ke Home Page.
 echo Atau Ketik code lain dari daftar code.
 echo.
 set/p pilihanterminal=
-if "%pilihanterminal%" == "opentutorial" goto s
+if "%pilihanterminal%" == "opentutcode" goto s
 if "%pilihanterminal%" == "openlist" goto list 
 if "%pilihanterminal%" == "opencode" goto e
 if "%pilihanterminal%" == "openh" goto home
 if "%pilihanterminal%" == "opencalculator" goto mt
 if "%pilihanterminal%" == "openinfo" goto it
+if "%pilihanterminal%" == "opendiary" goto d
+if "%pilihanterminal%" == "opentutdiary" goto sd
 goto t
 : b
 cls
@@ -65,9 +78,12 @@ color 70
 echo.
 echo.
 echo.
-echo ---------------
-echo Safe Calculator
-echo ---------------
+echo ----------------------
+echo Safe Calculator (Menu)
+echo ----------------------
+echo.
+echo.
+echo.
 echo           /\        
 echo          /  \     
 echo         /    \
@@ -152,7 +168,7 @@ echo   \          /   lama dalam menghitung. Jadi Safe Calculator
 echo    \        /    adalah sebuah alat yang membantu pengerjaan rumus, bukan
 echo     \      /     menggantikan perhitungan manual.
 echo      \    /
-echo       \  /       Patch 2.0.3 Windows
+echo       \  /       Patch 2.1.0 Windows
 echo        \/
 echo.
 echo.
@@ -220,7 +236,7 @@ echo   \          /   lama dalam menghitung. Jadi Safe Calculator
 echo    \        /    adalah sebuah alat yang membantu pengerjaan rumus, bukan
 echo     \      /     menggantikan perhitungan manual.
 echo      \    /
-echo       \  /       Patch 2.0.3 Windows
+echo       \  /       Patch 2.1.0 Windows
 echo        \/
 echo.
 echo.
@@ -236,13 +252,13 @@ color 07
 echo.
 echo.
 echo.
-echo --------
-echo Tutorial
-echo --------
+echo ---------------
+echo Tutorial (Code)
+echo ---------------
 echo.
 echo.
 echo.
-echo Selamat datang di halaman Tutorial.
+echo Selamat datang di halaman Tutorial Code.
 echo Halaman ini merupakan halaman yang
 echo akan menjelaskan tentang cara custom 
 echo code, simak penjelasan berikut ini,
@@ -278,8 +294,54 @@ echo.
 set/p pilihan4=
 if "%pilihan4%" == "opent" goto t
 goto s 
+: sd
+cls
+color 07
+echo.
+echo.
+echo.
+echo ----------------
+echo Tutorial (Diary)
+echo ----------------
+echo.
+echo.
+echo.
+echo Selamat datang di halaman Tutorial Diary.
+echo Halaman ini merupakan halaman yang
+echo akan menjelaskan tentang cara menulis 
+echo diary, simak penjelasan berikut ini,
+echo.
+echo 1. Masuk ke halaman diary dengan
+echo mengetik 'opendiary' di Terminal.
+echo.
+echo 2. Ubah tanggal, lalu tulis apa
+echo yang ingin kalian tulis.
+echo.
+echo 3. Cara menulisnya bebas, sesuaikan
+echo dengan apa yang kamu suka, diary ini
+echo milikmu, jadi ingin jadi apa diary ini
+echo ada di tangan mu.
+echo.
+echo 4. Untuk halaman code, akan 
+echo diarahkan ke notepad
+echo (untuk windows).
+echo.
+echo 5. Jika sudah selesai klik save
+echo atau gunakan shortcut ctrl + s.
+echo.
+echo 6. Jika sudah, cukup tutup diary,
+echo tidak perlu keluar dari program.
+echo.
+echo Ketik 'opent' untuk kembali ke terminal.
+echo.
+set/p pilihan4d=
+if "%pilihan4d%" == "opent" goto t
+goto sd
 : e
 notepad "%~f0"
+goto t
+: d
+notepad "Your Diary.txt"
 goto t
 : list
 cls
@@ -289,10 +351,12 @@ echo Jika sudah selesai, ketik 'opent' untuk kembali ke Terminal.
 echo.
 echo openlist = Membuka halaman daftar code.
 echo opencode = Membuka halaman edit code berbasis Notepad.
-echo opentutorial = Membuka tutorial edit code.
+echo opentutcode = Membuka tutorial edit code.
 echo openh = Kembali ke home page.
 echo opencalculator = Membuka halaman calculator.
 echo openinfo = Membuka halaman info.
+echo opendiary = Membuka buku harian pribadi pengguna.
+echo opentutdiary = Membuka tutorial menulis diary.
 echo.
 set/p pilihanlist=
 if "%pilihanlist%" == "opent" goto t
